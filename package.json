@@ -1,0 +1,23 @@
+{
+  "name": "async-share",
+  "version": "1.0.1",
+  "description": "Call asynchronous methods at the same time, execute only once, and share the result",
+  "main": "async-share.js",
+  "dependencies": {
+    "eventemitter3": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuweiyou/async-share.git"
+  },
+  "author": "zhuweiyou <i@zhuweiyou.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhuweiyou/async-share/issues"
+  },
+  "homepage": "https://github.com/zhuweiyou/async-share#readme"
+}
