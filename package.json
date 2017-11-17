@@ -1,6 +1,6 @@
 {
   "name": "async-share",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Call asynchronous methods at the same time, execute only once, and share the result",
   "main": "async-share.js",
   "dependencies": {
