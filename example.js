@@ -1,13 +1,13 @@
 var asyncShare = require('./async-share')
 
 var oldMethod = function (a) {
-    return new Promise(function (resolve) {
-        console.log('test: ' + a)
-        setTimeout(function () {
-            console.log('test')
-            resolve(1)
-        }, 1000)
-    })
+  return new Promise(function (resolve) {
+    console.log('test: ' + a)
+    setTimeout(function () {
+      console.log('test')
+      resolve(1)
+    }, 1000)
+  })
 }
 
 var newMethod = asyncShare(oldMethod)

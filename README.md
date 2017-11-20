@@ -10,7 +10,7 @@ Call asynchronous methods at the same time, execute only once, and share the res
 var asyncShare = require('async-share')
 
 var oldMethod = function (a) {
-    // return a Promise instance
+  // return a Promise instance
 }
 var newMethod = asyncShare(oldMethod)
 newMethod(1)
