@@ -1,5 +1,7 @@
 # async-share
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zhuweiyou/async-share.svg)](https://greenkeeper.io/)
+
 [![License MIT](https://img.shields.io/npm/l/async-share.svg)](https://github.com/zhuweiyou/async-share/blob/master/LICENSE)
 [![NPM Version](https://img.shields.io/npm/v/async-share.svg)](https://www.npmjs.com/package/async-share)
 [![NPM Download](https://img.shields.io/npm/dt/async-share.svg)](https://www.npmjs.com/package/async-share)
